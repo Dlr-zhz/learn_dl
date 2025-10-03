@@ -1,0 +1,5 @@
+jinja2==3.1.4
+yamlreader==3.0.4
+pyyaml==6.0.2
+# Optional: openai for real LLM
+openai>=1.40.0
