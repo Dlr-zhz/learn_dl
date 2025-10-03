@@ -1,0 +1,16 @@
+# Agent configuration
+system_prompt: |
+  你是一个对话代理。遵守对话模板并保持简洁、有条理的回答。
+
+memory:
+  max_messages: 20
+
+llm:
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  # base_url: https://api.openai.com/v1
+
+# templates
+templates_dir: templates
+# the Jinja2 template filename to render for every assistant reply
+template_name: reply.j2
